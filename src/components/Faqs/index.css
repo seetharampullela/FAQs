@@ -1,0 +1,32 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+}
+
+.list-container {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.heading {
+  font-size: 28px;
+  color: #cb8805;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    max-width: 1140px;
+  }
+  .heading {
+    font-size: 32px;
+    color: #cb8805;
+  }
+}
